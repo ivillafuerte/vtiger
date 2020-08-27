@@ -9,7 +9,7 @@
 
 <div class="container-fluid"  ng-controller="{portal_componentjs_class($MODULE, 'IndexView_Component')}">
     <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
             {include file=portal_template_resolve($MODULE, "partials/IndexContentBefore.tpl")}
             {include file=portal_template_resolve($MODULE, "partials/IndexContent.tpl")}
             {include file=portal_template_resolve($MODULE, "partials/IndexContentAfter.tpl")}
