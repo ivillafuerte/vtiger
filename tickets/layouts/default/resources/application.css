@@ -215,6 +215,7 @@ select.form-control option{
 .alert{
     margin: 15px 0;
     border-radius: 1px;
+    max-width: 60%;
 }
 /*Edit Styles*/
 .hrHeader{
@@ -244,6 +245,7 @@ select.form-control option{
     border: 1px solid #eee;
     margin-left: 10px;
     width: 22%;
+    max-width: 60%;
 }
 .categoryDropdown{
     font-size: 1em;
