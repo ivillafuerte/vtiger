@@ -10,7 +10,7 @@
 
 $enableAppKeyValidation = false;
 $defaultUserName = 'admin';
-$defaultUserAccessKey = 'A24vsL5E';
+$defaultUserAccessKey = 'iFOdqrI8lS5UhNTa';
 
 $defaultOwner = 'admin';
 $successURL = '';
