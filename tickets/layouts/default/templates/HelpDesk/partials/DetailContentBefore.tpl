@@ -8,7 +8,7 @@
 ************************************************************************************}
 
 {literal}
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ticket-detail-header-row ">
+<div class="col-lg-12 col-md-12 col-sm-8 col-xs-8 ticket-detail-header-row ">
   <h3 class="fsmall">
     <detail-navigator>
       <span>
@@ -22,7 +22,7 @@
   </h3>
 </div>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
   {/literal}
   <script type="text/javascript" src="{portal_componentjs_file('Documents')}"></script>
   {include file=portal_template_resolve('Documents', "partials/IndexContentAfter.tpl")}

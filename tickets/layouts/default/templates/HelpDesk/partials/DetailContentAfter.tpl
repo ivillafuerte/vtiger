@@ -173,7 +173,7 @@
 						</div>
 					</div>
 					<div class="row" ng-if="textFieldsEnabled">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" ng-repeat="editable in editableText">
+						<div class="col-lg-12 col-md-12 col-sm-8 col-xs-8" ng-repeat="editable in editableText">
 							<div class="form-group">
 								<ng-form name="innerForm" ng-class="{'has-error':innerForm.name.$error.required && submit}">
 									<label>{{editable.label}}</label>

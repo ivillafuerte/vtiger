@@ -46,7 +46,7 @@
                 <div class="row tickets-panel-container" ng-if="activateRecentTickets">
                     <div class="panel-heading separator"><div class="tickets panel-title">{{'Recent'|translate}} {{ticketsUiLabel}}</div></div>
                     <div ng-repeat="recentTicket in recentTickets" ng-if="recentTickets.length>0">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
                             <div class="panel panel-default tickets-panel-content">
                                 <div class="tickets-panel-heading separator">
                                     <div class="ticket-panel-title" ng-class='{"first-ticket-panel-title":$index==0}'><a ng-click="loadRecentRecord('HelpDesk',recentTicket.id)">{{recentTicket.label}}</a>

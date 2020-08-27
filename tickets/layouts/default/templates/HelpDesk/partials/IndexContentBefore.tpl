@@ -32,15 +32,15 @@
             </div>
         </div>
         <!--<div class="hidden-md hidden-lg" style="height: 20px;"></div>-->
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
             <div class="row" ng-if="activateStatus">
                 <hp-selectric items="ticketStatus" ng-model="searchQ.ticketstatus"></hp-selectric>
             </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-2 col-sm-8 col-xs-8">
           <button ng-if="records" class="btn btn-primary" ng-csv="exportRecords(module)" csv-header="csvHeaders" add-bom="true" filename="{{filename}}.csv">{{'Export'|translate}}&nbsp;{{ptitle}}</button>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pagination-holder">
+        <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8 pagination-holder">
             <div class="pull-right">
                 <div class="text-center">
                     <pagination
