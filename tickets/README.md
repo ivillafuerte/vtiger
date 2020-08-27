@@ -4,12 +4,16 @@
 
 * Enable php cURL extension.
 * Write permission for webserver (Apache) process owner  on writeable folder.
-* Vtiger CRM 7.1.0 with CustomerPortal module enabled.
+* Vtiger CRM 7.3 with CustomerPortal module enabled.
 
 ##Installation
 
-* Copy config.sample.php to config.php
-* Update config.php variales
-    * crm.url — Vtiger CRM URL fully qualified.
-    * portal.url — URL of this application.
-* Make sure crm.url is reachable from this server.
+* Download customer portal.
+* Unzip into Vtiger CRM source folder.
+* Rename vtigercrm-customerportal-x.x.x directory as customerportal.
+* In customerportal directory copy config.sample.php to config.php
+* Open config.php and now add crm.url as your source and portal.url as there in customerportal settings page. 
+* Make sure Outgoing server is configured.
+* Now create a contact with email id field and enable portal user.
+* Mail with credentials will be sent to Contact.
+
