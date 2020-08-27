@@ -10,7 +10,7 @@
 {literal}
     <div ng-controller="Home_Component" class="container-fluid main-container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" ng-if="profileFetched">
                         <h2 title="{{org}}" class="portal-welcome">{{'Welcome to' | translate}} {{org|limitTo:25}}{{org.length > 25? '...' : ''}} {{'Portal' | translate}}</h2>
@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
                 <div ng-if="announcementExists" class="alert alert-warning portal-announcement">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                     <p ng-bind-html="announcement">  {{announcement}}</p>
@@ -69,7 +69,7 @@
 <br><br>
         </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 shortcut-container">
+            <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8 shortcut-container">
                 <div class="panel panel-default" ng-if="showShortcuts">
                     <div class="panel-heading separator">
                         <div class="panel-title">{{'What would you like to do ?' | translate}}

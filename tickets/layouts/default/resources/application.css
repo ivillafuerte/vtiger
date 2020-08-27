@@ -215,7 +215,6 @@ select.form-control option{
 .alert{
     margin: 15px 0;
     border-radius: 1px;
-    max-width: 60%;
 }
 /*Edit Styles*/
 .hrHeader{
