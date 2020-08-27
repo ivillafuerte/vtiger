@@ -1,0 +1,18 @@
+#corrensa-startup-screen {
+  img.startup-image {
+    display: block;
+    width: 128px;
+    margin: 0 auto;
+  }
+
+  .modal-body {
+    p { text-align: center }
+  }
+}
+
+#corrensa-startup-screen.fade.in,
+#corrensa-register-screen.fade.in,
+#corrensa-connection-screen.fade.in,
+#corrensa-update-screen.fade.in {
+  z-index: 9999999;
+} 

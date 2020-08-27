@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_ctuserfilterview</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_ctuserfilterview` (
+  `ctuserfilterviewid` int(11) DEFAULT NULL,
+  `ctuser_filter_view_no` varchar(255) DEFAULT NULL,
+  `module_name` varchar(255) DEFAULT NULL,
+  `filter_id` varchar(255) DEFAULT NULL,
+  `filter_name` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_ctuserfilterviewcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_ctuserfilterviewcf` (
+  `ctuserfilterviewid` int(11) NOT NULL,
+  PRIMARY KEY (`userfilterviewid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_cron_task</name>
+			<sql><![CDATA[INSERT INTO vtiger_cron_task( id, name, handler_file, frequency, laststart, lastend, 
+STATUS , module, sequence, description ) 
+SELECT MAX( id ) +1,  'CTLatLongScheduler',  'cron/modules/CTUserFilterView/AddRecordLatLong.service',  '3600',  '',  '',  '0', 'CTUserFilterView', MAX( sequence ) +1,  'Recommended frequency for Schedule CTLatLong is 1 Hour'
+FROM vtiger_cron_task]]></sql>
+		</table>
+	</tables>
+</schema>

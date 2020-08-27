@@ -1,0 +1,540 @@
+.corrensa-config {
+}
+
+.register {
+  margin-top: 10px;
+}
+
+.slim-scroll {
+  /* Style for slim scroll */
+  &::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #ddd;
+    //border-left: 1px solid #00c2ff;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #1560BD;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #919191;
+  }
+  /* Style for slim scroll */
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.widget_header {
+  h3 {
+    margin-bottom: 10px;
+  }
+}
+
+.header__logo {
+  margin-top: 5px;
+  margin-left: 45%;
+  .logo__text {
+    font-size: 1.5em;
+    line-height: 25px;
+    padding-left: 5px;
+    color: #0057a7;
+    font-weight: bold;
+  }
+  img {
+    width: 25px;
+    float: left;
+  }
+}
+
+#corrensa-connection-screen, #corrensa-update-screen {
+  .modal-header {
+    .modal-title {
+      line-height: 30px;
+      margin-left: 40px;
+    }
+  }
+
+  .top-icon {
+    float: left;
+    height: 30px;
+  }
+
+  .confirm-success{
+    text-align: center;
+  }
+
+  .step {
+    .status-icon {
+      margin-left: 50px;
+      display: block;
+      float: left;
+      width: 35px;
+      height: 35px;
+    }
+
+    .area {
+      display: none;
+    }
+
+    .area__text {
+      padding: 5px 10px 10px 10px;
+      display: block;
+    }
+
+    &.done {
+      .done-area {
+        display: block;
+      }
+    }
+
+    &.fail {
+      .fail-area {
+        display: block;
+      }
+    }
+    
+    .process-name {
+      display: block;
+      float: left;
+      line-height: 35px;
+      margin-left: 10px;
+      span.take-up-alert{
+        font-style: italic;
+        font-size: 0.9em;
+        color: #2d3642;
+        position: relative;
+        top:-20px;
+      }
+    }
+
+    &.processing {
+      .status-icon {
+        background: url("../images/ball-loading.svg") no-repeat center;
+        background-size: 50px 50px;
+      }
+    }
+
+    &.done {
+      .status-icon {
+        background: url("../images/sign-check.svg") no-repeat center;
+        background-size: 35px 35px;
+      }
+
+      .process-name {
+        color: green;
+        font-weight: bold;
+        line-height: 40px;
+      }
+    }
+
+    &.fail {
+      .status-icon {
+        background: url("../images/sign-error.svg") no-repeat center;
+        background-size: 35px 35px;
+      }
+
+      .process-name {
+        color: red;
+        font-weight: bold;
+        line-height: 40px;
+      }
+    }
+    &.text-center{
+      text-align: center;
+    }
+  }
+}
+
+#corrensa-update-screen #step-2 {
+  display: none;
+}
+
+.setting-nav {
+  margin-bottom: 0;
+
+  li a {
+    font-weight: bold;
+  }
+}
+
+.setting-pane {
+  display: none;
+  box-sizing: border-box;
+  min-height: 100px;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.dashboard-frame {
+  width: 100%;
+  height: 700px;
+  border: none;
+  //&::-webkit-scrollbar {
+  //  display: none;
+  //}
+}
+
+.connection-pane {
+  padding: 20px;
+  .box-title {
+    margin-bottom: 20px;
+  }
+
+  #btnDisconnect {
+    margin-left: 20px;
+  }
+}
+
+.uninstall-pane {
+  border-top: 1px solid #ddd;
+}
+
+/* Register popup */
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+
+#corrensa-startup-screen.fade.in,
+#corrensa-register-screen.fade.in,
+#corrensa-connection-screen.fade.in,
+#corrensa-update-screen.fade.in {
+  z-index: 9999999;
+}
+
+#corrensa-register-screen.fade.in {
+  padding: 0;
+  overflow: hidden;
+
+  .modal-dialog {
+    height: 100%;
+    width: 100%;
+  }
+
+  .modal-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-body {
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* Register popup */
+
+/* Login form */
+.welcome-message {
+  width: 100%;
+  margin-bottom: 30px;
+  //text-align: center;
+  font-size: 1.8em;
+  color: #444;
+  margin-top: 30px;
+}
+
+#loginForm {
+  width: 265px;
+  margin: 0 auto;
+
+  input {
+    width: 100%;
+  }
+
+  .btn__login {
+    margin-right: 5px;
+  }
+
+  .btn__register-account {
+    margin-right: 5px;
+  }
+
+  .hover-tooltip .fa {
+    font-size: 1.3em;
+  }
+
+  .actions {
+    margin-top: 20px;
+  }
+
+  input[type="text"], input[type="password"] {
+    //border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    //border-bottom: 1px solid #eee;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 1.2em;
+  }
+
+  label {
+    font-weight: bold;
+    color: #1560BD;
+  }
+}
+
+.howdoesitwork {
+  margin-top: 30px;
+  img {
+    width: 100%;
+  }
+}
+/* Login form */
+
+#actionForm {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently */
+
+  .hover-tooltip {
+    font-size: 1.3em;
+  }
+
+  #btnUpdate, #btnDisconnect, #btnShowError {
+    margin-right: 5px;
+  }
+
+  .hover-tooltip {
+    margin-right: 5px;
+  }
+
+  .sp-switcher {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 16px;
+    float: left;
+    margin-top: 18px;
+    margin-right: 7px;
+  }
+
+  .sp-switcher input {display:none;}
+
+  .sp-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #ff6a26;
+  }
+
+  .sp-switcher .sp-status {
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    margin-top: -18px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 100px;
+    font-weight: bold;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently */
+  }
+
+  .sp-slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+
+  input:checked + .sp-slider {
+    background-color: #2aa403;
+  }
+
+  input:focus + .sp-slider {
+    box-shadow: 0 0 1px #2aa403;
+  }
+
+  input:checked + .sp-slider {
+    color: #2aa403;
+  }
+
+  input:checked + .sp-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: 40px;
+  }
+
+  /* Rounded sp-sliders */
+  .sp-slider.round {
+    border-radius: 12px;
+  }
+
+  .sp-slider.round:before {
+    border-radius: 50%;
+  }
+}
+
+#corrensa-lost-password-screen.fade.in {
+  padding: 0;
+  overflow: hidden;
+
+  .modal-dialog {
+    height: 100%;
+    width: 100%;
+  }
+
+  .modal-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-body {
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.synching-status {
+  width: 100%;
+  margin-top: 100px;
+
+  .status__text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999;
+  }
+
+  .status__button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.process-content {
+  color: green;
+}
+
+.corrensa-requirements {
+  width: 350px;
+  margin-top: 30px;
+  float: left;
+
+  > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .rqr-name {
+    display: block;
+    font-weight: bold;
+
+    img {
+      width: 15px;
+    }
+  }
+
+  .is-valid {
+    color: green;
+  }
+
+  .is-invalid {
+    color: red;
+  }
+}
+
+.live-chat-box {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  max-width: 250px;
+  padding: 20px;
+}
+
+.corrensa-requirements-modal {
+  margin-top: 0;
+  width: auto;
+}
+
+#corrensa-show-error {
+  padding: 0;
+
+  .modal-body {
+    float: left;
+  }
+
+  .issue-list {
+    margin-top: 20px;
+    list-style:none;
+
+    > li {
+      padding-left:20px;
+    }
+
+    li:before {
+      content: "* "
+    }
+  }
+}
+
+.requirement-title {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  color: #444;
+}
+
+.corrensa_header {
+  padding: 30px 0 10px;
+}

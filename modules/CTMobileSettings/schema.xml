@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>ctmobile_address_modules</name>
+			<sql><![CDATA[CREATE TABLE `ctmobile_address_modules` (
+  `module` varchar(250) NOT NULL DEFAULT '',
+  `active` int(1) DEFAULT NULL,
+  `sequence` int(3) DEFAULT NULL,
+  PRIMARY KEY (`module`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_address_fields</name>
+			<sql><![CDATA[CREATE TABLE `ctmobile_address_fields` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `module` varchar(50) DEFAULT NULL,
+  `fieldname` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=60 DEFAULT CHARSET=latin1]]></sql>
+		</table>
+		<table>
+			<name>cte_modules</name>
+			<sql><![CDATA[CREATE TABLE `cte_modules` (
+  `module` varchar(50) NOT NULL,
+  `valid` int(1) DEFAULT NULL,
+  PRIMARY KEY (`module`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_api_settings</name>
+			<sql><![CDATA[CREATE TABLE `ctmobile_api_settings` (
+		  `id` int(11) NOT NULL AUTO_INCREMENT,
+		  `api_key` varchar(255) DEFAULT NULL,
+		  `order_no` varchar(255) DEFAULT NULL,
+		  PRIMARY KEY (`id`)
+		) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_license_settings</name>
+			<sql><![CDATA[CREATE TABLE `ctmobile_license_settings` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `license_key` varchar(255) DEFAULT NULL,
+  `status` tinyint(3) DEFAULT NULL,
+  `domain` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_license_settings</name>
+			<sql><![CDATA[ALTER TABLE  `ctmobile_license_settings` ADD  `expirydate` DATE NOT NULL AFTER  `domain` ,
+ADD  `user_type` ENUM( 'free' , 'premium' ) NOT NULL DEFAULT  'free' AFTER  `expirydate`]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_livetracking_users</name>
+			<sql><![CDATA[CREATE TABLE IF NOT EXISTS `ctmobile_livetracking_users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_access_users</name>
+			<sql><![CDATA[CREATE TABLE IF NOT EXISTS `ctmobile_access_users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1]]></sql>
+		</table>
+		<table>
+			<name>ct_address_lat_long</name>
+			<sql><![CDATA[CREATE TABLE IF NOT EXISTS `ct_address_lat_long` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `recordid` int(11) NOT NULL,
+  `moduleid` int(11) NOT NULL,
+  `latitude` varchar(255) DEFAULT NULL,
+  `longitude` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=188]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_userderoute</name>
+			<sql><![CDATA[CREATE TABLE IF NOT EXISTS `ctmobile_userderoute` (
+  `id` int(12) NOT NULL AUTO_INCREMENT,
+  `userid` int(11) NOT NULL,
+  `devicetoken` longtext NOT NULL,
+  `latitude` longtext NOT NULL,
+  `longitude` longtext NOT NULL,
+  `createdtime` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1]]></sql>
+		</table>
+		<table>
+			<name>ctmobile_userderoute</name>
+			<sql><![CDATA[ALTER TABLE `ctmobile_userderoute` ADD `record` VARCHAR( 200 ) NOT NULL AFTER `longitude` ,
+ADD `action` VARCHAR( 200 ) NOT NULL AFTER `record`]]></sql>
+		</table>
+		<table>
+			<name>vtiger_links</name>
+			<sql><![CDATA[DELETE FROM vtiger_links WHERE linklabel = 'CTMobileSettingsJs']]></sql>
+		</table>
+	</tables>
+</schema>

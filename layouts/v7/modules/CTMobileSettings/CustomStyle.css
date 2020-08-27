@@ -1,0 +1,80 @@
+ /*+*******************************************************************************
+ * The content of this file is subject to the CRMTiger Pro license.
+ * ("License"); You may not use this file except in compliance with the License
+ * The Initial Developer of the Original Code is vTiger
+ * The Modified Code of the Original Code owned by https://crmtiger.com/
+ * Portions created by CRMTiger.com are Copyright(C) CRMTiger.com
+ * All Rights Reserved.
+  ***************************************************************************** */	
+		.main_div{
+			width: 100%;
+			height: auto;
+		}
+		.box{
+			display: block;
+			float: left;
+			width: 31%;
+			height: 310px;
+			margin: 1%;
+			border-radius: 5px;
+			border:1px solid  #e3e3e3;
+			
+		}
+		.box2{
+			display: block;
+			float: left;
+			width: 95%;
+			height: 450px;
+			margin: 1%;
+			border-radius: 5px;
+			border:1px solid  #e3e3e3;
+			
+		}
+		.box:hover{
+				box-shadow: 0 8px 15px -3px #ccc;
+		}
+		.box-panel{
+			width: auto;
+			height: auto;
+			padding: 4%;
+			border:1px solid #efecec;	
+			background-color: #f4f4f4;  
+		}
+		.main_text{
+			font-size: 18px;
+		}
+
+		.box-panel:hover{
+			  box-shadow: 0 11px 20px -4px #efecec;
+		}
+		.box-title{
+			margin:1%;
+			font-size: 22px;
+		}
+		.under_box{
+			display: flex;
+		}
+		.box_cont{
+			    padding: 13% 4% 4% 4%;
+				width: auto;
+				height: 129px;
+				font-size: 18px;
+				vertical-align: middle;
+				position: relative;
+		}
+		.icn{
+			width:32px;
+			height: 32px;
+		}
+
+		@media only screen and (max-width: 960px) {
+		.main_div{
+			width: auto;
+			  flex: 50%;
+		}
+ 		 .box {
+ 		 	margin:0 0 1% 0;
+    		float: left;
+    		width:100%;
+  			}
+		}

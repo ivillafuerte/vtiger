@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_ctattendance</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_ctattendance` (
+  `ctattendanceid` int(11) DEFAULT NULL,
+  `ctattendance_no` varchar(255) DEFAULT NULL,
+  `employee_name` varchar(255) DEFAULT NULL,
+  `attendance_status` varchar(255) DEFAULT NULL,
+  `check_in_location` VARCHAR(255) DEFAULT NULL,
+  `check_out_location` VARCHAR(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_ctattendancecf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_ctattendancecf` (
+  `ctattendanceid` int(11) NOT NULL,
+  PRIMARY KEY (`ctattendanceid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

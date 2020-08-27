@@ -1,0 +1,377 @@
+.register {
+  margin-top: 10px; }
+
+.slim-scroll {
+  /* Style for slim scroll */
+  /* Style for slim scroll */ }
+  .slim-scroll::-webkit-scrollbar {
+    width: 2px;
+    height: 2px; }
+  .slim-scroll::-webkit-scrollbar-track {
+    background-color: #ddd; }
+  .slim-scroll::-webkit-scrollbar-thumb {
+    background-color: #1560BD; }
+  .slim-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #919191; }
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none; }
+
+.widget_header h3 {
+  margin-bottom: 10px; }
+
+.header__logo {
+  margin-top: 5px;
+  margin-left: 45%; }
+  .header__logo .logo__text {
+    font-size: 1.5em;
+    line-height: 25px;
+    padding-left: 5px;
+    color: #0057a7;
+    font-weight: bold; }
+  .header__logo img {
+    width: 25px;
+    float: left; }
+
+#corrensa-connection-screen .modal-header .modal-title, #corrensa-update-screen .modal-header .modal-title {
+  line-height: 30px;
+  margin-left: 40px; }
+#corrensa-connection-screen .top-icon, #corrensa-update-screen .top-icon {
+  float: left;
+  height: 30px; }
+#corrensa-connection-screen .confirm-success, #corrensa-update-screen .confirm-success {
+  text-align: center; }
+#corrensa-connection-screen .step .status-icon, #corrensa-update-screen .step .status-icon {
+  margin-left: 50px;
+  display: block;
+  float: left;
+  width: 35px;
+  height: 35px; }
+#corrensa-connection-screen .step .area, #corrensa-update-screen .step .area {
+  display: none; }
+#corrensa-connection-screen .step .area__text, #corrensa-update-screen .step .area__text {
+  padding: 5px 10px 10px 10px;
+  display: block; }
+#corrensa-connection-screen .step.done .done-area, #corrensa-update-screen .step.done .done-area {
+  display: block; }
+#corrensa-connection-screen .step.fail .fail-area, #corrensa-update-screen .step.fail .fail-area {
+  display: block; }
+#corrensa-connection-screen .step .process-name, #corrensa-update-screen .step .process-name {
+  display: block;
+  float: left;
+  line-height: 35px;
+  margin-left: 10px; }
+  #corrensa-connection-screen .step .process-name span.take-up-alert, #corrensa-update-screen .step .process-name span.take-up-alert {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #2d3642;
+    position: relative;
+    top: -20px; }
+#corrensa-connection-screen .step.processing .status-icon, #corrensa-update-screen .step.processing .status-icon {
+  background: url("../images/ball-loading.svg") no-repeat center;
+  background-size: 50px 50px; }
+#corrensa-connection-screen .step.done .status-icon, #corrensa-update-screen .step.done .status-icon {
+  background: url("../images/sign-check.svg") no-repeat center;
+  background-size: 35px 35px; }
+#corrensa-connection-screen .step.done .process-name, #corrensa-update-screen .step.done .process-name {
+  color: green;
+  font-weight: bold;
+  line-height: 40px; }
+#corrensa-connection-screen .step.fail .status-icon, #corrensa-update-screen .step.fail .status-icon {
+  background: url("../images/sign-error.svg") no-repeat center;
+  background-size: 35px 35px; }
+#corrensa-connection-screen .step.fail .process-name, #corrensa-update-screen .step.fail .process-name {
+  color: red;
+  font-weight: bold;
+  line-height: 40px; }
+#corrensa-connection-screen .step.text-center, #corrensa-update-screen .step.text-center {
+  text-align: center; }
+
+#corrensa-update-screen #step-2 {
+  display: none; }
+
+.setting-nav {
+  margin-bottom: 0; }
+  .setting-nav li a {
+    font-weight: bold; }
+
+.setting-pane {
+  display: none;
+  box-sizing: border-box;
+  min-height: 100px;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none; }
+  .setting-pane.active {
+    display: block; }
+
+.dashboard-frame {
+  width: 100%;
+  height: 700px;
+  border: none; }
+
+.connection-pane {
+  padding: 20px; }
+  .connection-pane .box-title {
+    margin-bottom: 20px; }
+  .connection-pane #btnDisconnect {
+    margin-left: 20px; }
+
+.uninstall-pane {
+  border-top: 1px solid #ddd; }
+
+/* Register popup */
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px; } }
+#corrensa-startup-screen.fade.in,
+#corrensa-register-screen.fade.in,
+#corrensa-connection-screen.fade.in,
+#corrensa-update-screen.fade.in {
+  z-index: 9999999; }
+
+#corrensa-register-screen.fade.in {
+  padding: 0;
+  overflow: hidden; }
+  #corrensa-register-screen.fade.in .modal-dialog {
+    height: 100%;
+    width: 100%; }
+  #corrensa-register-screen.fade.in .modal-content {
+    width: 100%;
+    height: 100%; }
+  #corrensa-register-screen.fade.in .modal-body {
+    height: 100%;
+    padding: 0;
+    overflow: hidden; }
+  #corrensa-register-screen.fade.in iframe {
+    width: 100%;
+    height: 100%; }
+
+/* Register popup */
+/* Login form */
+.welcome-message {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  color: #444;
+  margin-top: 30px; }
+
+#loginForm {
+  width: 265px;
+  margin: 0 auto; }
+  #loginForm input {
+    width: 100%; }
+  #loginForm .btn__login {
+    margin-right: 5px; }
+  #loginForm .btn__register-account {
+    margin-right: 5px; }
+  #loginForm .hover-tooltip .fa {
+    font-size: 1.3em; }
+  #loginForm .actions {
+    margin-top: 20px; }
+  #loginForm input[type="text"], #loginForm input[type="password"] {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 1.2em; }
+  #loginForm label {
+    font-weight: bold;
+    color: #1560BD; }
+
+.howdoesitwork {
+  margin-top: 30px; }
+  .howdoesitwork img {
+    width: 100%; }
+
+/* Login form */
+#actionForm {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently */
+  /* Rounded sp-sliders */ }
+  #actionForm .hover-tooltip {
+    font-size: 1.3em; }
+  #actionForm #btnUpdate, #actionForm #btnDisconnect, #actionForm #btnShowError {
+    margin-right: 5px; }
+  #actionForm .hover-tooltip {
+    margin-right: 5px; }
+  #actionForm .sp-switcher {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 16px;
+    float: left;
+    margin-top: 18px;
+    margin-right: 7px; }
+  #actionForm .sp-switcher input {
+    display: none; }
+  #actionForm .sp-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #ff6a26; }
+  #actionForm .sp-switcher .sp-status {
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    margin-top: -18px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 100px;
+    font-weight: bold;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently */ }
+  #actionForm .sp-slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .3s;
+    transition: .3s; }
+  #actionForm input:checked + .sp-slider {
+    background-color: #2aa403; }
+  #actionForm input:focus + .sp-slider {
+    box-shadow: 0 0 1px #2aa403; }
+  #actionForm input:checked + .sp-slider {
+    color: #2aa403; }
+  #actionForm input:checked + .sp-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: 40px; }
+  #actionForm .sp-slider.round {
+    border-radius: 12px; }
+  #actionForm .sp-slider.round:before {
+    border-radius: 50%; }
+
+#corrensa-lost-password-screen.fade.in {
+  padding: 0;
+  overflow: hidden; }
+  #corrensa-lost-password-screen.fade.in .modal-dialog {
+    height: 100%;
+    width: 100%; }
+  #corrensa-lost-password-screen.fade.in .modal-content {
+    width: 100%;
+    height: 100%; }
+  #corrensa-lost-password-screen.fade.in .modal-body {
+    height: 100%;
+    padding: 0;
+    overflow: hidden; }
+  #corrensa-lost-password-screen.fade.in iframe {
+    width: 100%;
+    height: 100%; }
+
+.synching-status {
+  width: 100%;
+  margin-top: 100px; }
+  .synching-status .status__text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999; }
+  .synching-status .status__button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 5px; }
+
+.process-content {
+  color: green; }
+
+.corrensa-requirements {
+  width: 350px;
+  margin-top: 30px;
+  float: left; }
+  .corrensa-requirements > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .corrensa-requirements li {
+    margin: 10px 0; }
+  .corrensa-requirements .rqr-name {
+    display: block;
+    font-weight: bold; }
+    .corrensa-requirements .rqr-name img {
+      width: 15px; }
+  .corrensa-requirements .is-valid {
+    color: green; }
+  .corrensa-requirements .is-invalid {
+    color: red; }
+
+.live-chat-box {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  max-width: 250px;
+  padding: 20px; }
+
+.corrensa-requirements-modal {
+  margin-top: 0;
+  width: auto; }
+
+#corrensa-show-error {
+  padding: 0; }
+  #corrensa-show-error .modal-body {
+    float: left; }
+  #corrensa-show-error .issue-list {
+    margin-top: 20px;
+    list-style: none; }
+    #corrensa-show-error .issue-list > li {
+      padding-left: 20px; }
+    #corrensa-show-error .issue-list li:before {
+      content: "* "; }
+
+.requirement-title {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  color: #444; }
+
+.corrensa_header {
+  padding: 30px 0 10px; }
+
+/*# sourceMappingURL=settings.css.map */

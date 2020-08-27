@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>ctmobile_userdevicetoken</name>
+			<sql><![CDATA[CREATE TABLE `ctmobile_userdevicetoken` (
+  `userid` int(11) NOT NULL,
+  `devicetoken` longtext NOT NULL,
+  `longitude` longtext NOT NULL,
+  `latitude` longtext NOT NULL,
+  UNIQUE KEY `userid` (`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1]]></sql>
+		</table>
+		<table>
+			<name>vtiger_field</name>
+			<sql><![CDATA[UPDATE `vtiger_field` SET `summaryfield` = '1' WHERE `fieldname` LIKE 'location']]></sql>
+		</table>
+	</tables>
+</schema>
