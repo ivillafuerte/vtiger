@@ -51,7 +51,7 @@
 			{
 				literal
 			}
-			
+
 			[ng\:cloak],
 			[ng-cloak],
 			[data-ng-cloak],
@@ -60,7 +60,7 @@
 			.x-ng-cloak {
 				display: none !important;
 			}
-			
+
 			{
 				/literal
 			}
@@ -70,7 +70,7 @@
 	</head>
 
 	<body ng-controller="MainController" ng-cloak>
-		<nav class="navbar navbar-inverse navbar-static-top">
+		<nav class="navbar navbar-inverse navbar-static-top col-lg-12 col-md-12 col-sm-8 col-xs-8">
 			{literal}
 			<div class="search-wrapper" ng-controller="globalSearchController">
 
