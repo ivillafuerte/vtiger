@@ -13,7 +13,7 @@
             <div class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" ng-if="profileFetched">
-                        <h2 title="{{org}}" class="portal-welcome">{{'Ticket Portal'}} {{org|limitTo:25}}{{org.length > 25? '...' : ''}}</h2>
+                        <h2 title="{{org}}" class="portal-welcome">{{'Ticket Portal'}}</h2>
                     </div>
                     <div ng-if="supportNotification" class="pull-right col-md-3 col-lg-3 col-sm-3 col-xs-3">
                         <div class="alert alert-danger alert-dismissible portal-alert" role="alert">
