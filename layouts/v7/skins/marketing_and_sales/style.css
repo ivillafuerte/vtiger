@@ -442,7 +442,7 @@ body > .mCSB_inside > .mCSB_container {
   vertical-align: bottom;
 }
 .app-switcher-container .active {
-  background-color: #010101 !important;
+  background-color: #215f9c !important;
 }
 .app-switcher-container .app-navigator {
   background-color: rgb(25, 118, 210);
@@ -994,7 +994,7 @@ input[type="password"].inputElement {
   opacity: 1;
 }
 .modules-menu ul li.active {
-  background: #010101;
+  background: #215f9c;
 }
 .modules-menu ul li.active a {
   opacity: 1;
@@ -5070,7 +5070,7 @@ hr {
   opacity: 1;
 }
 .panel-collapse ul li a.settingsgroup-menu-color {
-  background-color: #010101;
+  background-color: #215f9c;
 }
 .calendar-sidebar-tab {
   padding: 10px;
@@ -6013,7 +6013,7 @@ div.tooltip-inner {
   cursor: pointer;
 }
 .menuEditorModuleItem.active {
-  background: #010101;
+  background: #215f9c;
 }
 .reports-content-area {
   padding-top: 15px;
