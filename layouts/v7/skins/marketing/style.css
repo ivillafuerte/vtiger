@@ -348,7 +348,7 @@ body > .mCSB_inside > .mCSB_container {
 }
 .module-action-bar .module-title {
   font-family: Oswald, "OpenSans-Semibold", "Helvetica Neue", Helvetica, sans-serif;
-  color: #596875;
+  color: #215f9c;
   margin: 12px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -452,7 +452,7 @@ body > .mCSB_inside > .mCSB_container {
   opacity: 0.8;
 }
 .global-nav .app-switcher-container .app-navigator:hover {
-  background: #596875;
+  background: #215f9c;
   opacity: 1;
 }
 .global-nav .app-switcher-container .app-navigator:hover .app-icon {
@@ -484,7 +484,7 @@ body > .mCSB_inside > .mCSB_container {
   display: none;
 }
 .app-menu hr {
-  border-top: 1px solid #596875;
+  border-top: 1px solid #215f9c;
   padding: 1%;
 }
 .app-menu .app-name {
@@ -547,7 +547,7 @@ a.menu-item:hover {
 .active-app-item,
 .app-item:hover {
   opacity: 1;
-  background: #596875;
+  background: #215f9c;
   color: #f2f1f1;
 }
 .app-item-color-MARKETING {
@@ -615,7 +615,7 @@ a.menu-item:hover {
 }
 .app-menu .app-modules-dropdown li:hover {
   opacity: 1;
-  background: #596875;
+  background: #215f9c;
   color: #f2f1f1;
 }
 .app-menu .app-modules-dropdown li:hover .module-icon {
@@ -987,7 +987,7 @@ input[type="password"].inputElement {
   white-space: nowrap;
 }
 .modules-menu ul li:hover {
-  background: #596875;
+  background: #215f9c;
   opacity: 1;
 }
 .modules-menu ul li:hover a {
@@ -2436,7 +2436,7 @@ th {
 }
 .fieldBlockHeader {
   margin-top: 0;
-  color: #596875;
+  color: #215f9c;
 }
 .quickCreateContent .referencefield-wrapper {
   width: 210px;
@@ -2747,7 +2747,7 @@ th {
 ********************************************/
 .modal-header {
   padding: 5px 15px;
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
 }
 .modal-footer {
@@ -2771,7 +2771,7 @@ th {
   display: inline-block;
   width: 100%;
   float: left;
-  background: #596875;
+  background: #215f9c;
   /*    height: 100%;*/
 }
 .settings-menu {
@@ -2782,7 +2782,7 @@ th {
   height: 100%;
 }
 .settings-flip {
-  background: none repeat scroll 0 0 #596875;
+  background: none repeat scroll 0 0 #215f9c;
   font-size: 14px;
   margin: auto;
   padding: 5px;
@@ -2802,7 +2802,7 @@ th {
 }
 .importOverLayHeader {
   background: white;
-  color: #596875;
+  color: #215f9c;
   border-color: transparent;
   max-height: 50px;
 }
@@ -2877,11 +2877,11 @@ th {
 }
 .crumbs li.active {
   height: 0;
-  border-top: 20px solid #596875;
-  border-bottom: 20px solid #596875;
+  border-top: 20px solid #215f9c;
+  border-bottom: 20px solid #215f9c;
 }
 .crumbs li.active:after {
-  border-left: 20px solid #596875 !important;
+  border-left: 20px solid #215f9c !important;
 }
 .crumbs li a {
   display: block;
@@ -2960,10 +2960,10 @@ th {
   opacity: 1;
 }
 .importBlockContainer {
-  color: #596875;
+  color: #215f9c;
 }
-/******************************************* 
-************* Social Buttons *************** 
+/*******************************************
+************* Social Buttons ***************
 ********************************************/
 .btn-block + .btn-block {
   margin-top: 5px;
@@ -2992,8 +2992,8 @@ th {
   text-align: center;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
-/******************************************* 
-************* Updates Timeline *************** 
+/*******************************************
+************* Updates Timeline ***************
 ********************************************/
 .recentActivitiesContainer .history {
   margin: 0 auto;
@@ -3175,8 +3175,8 @@ th {
   vertical-align: super;
   font-size: 13px;
 }
-/******************************************* 
-************* Task Management ************** 
+/*******************************************
+************* Task Management **************
 ********************************************/
 #taskManagementContainer .data-body {
   margin-bottom: 50px;
@@ -3257,8 +3257,8 @@ th {
 #taskManagementContainer .mCustomScrollbar .mCSB_inside > .mCSB_container {
   margin-right: 13px;
 }
-/******************************************* 
-************* Settings Page ************** 
+/*******************************************
+************* Settings Page **************
 ********************************************/
 .settingsPageDiv.content-area {
   margin-right: 0;
@@ -3529,7 +3529,7 @@ th {
 th {
   padding: 6px;
 }
-/******************************************* 
+/*******************************************
 ********** CustomerPortal styles start ********
 ********************************************/
 .cp-tabs .enabledModules {
@@ -3562,7 +3562,7 @@ th {
   border: 1px solid #D7D7D7;
 }
 .portal-annoucement-widget {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -3575,7 +3575,7 @@ th {
   padding: 10px;
 }
 .portal-chart-header {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -3589,7 +3589,7 @@ th {
   margin-bottom: 10px;
 }
 .portal-record-widget-content {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 10px;
   padding: 4px;
@@ -3602,7 +3602,7 @@ th {
   width: 285px !important;
 }
 .portal-shortcuts-header {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -3620,7 +3620,7 @@ th {
   width: 285px !important;
 }
 .portal-helpdesk-widget-header {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -3843,7 +3843,7 @@ th {
 .quickPreview .recentActivitiesContainer .history {
   padding: 0;
 }
-/******************************************* 
+/*******************************************
 ********** Calendar view styles ************
 ********************************************/
 .calendar-sidebar {
@@ -4003,7 +4003,7 @@ th {
   display: inline-block;
   text-align: center;
 }
-/******************************************* 
+/*******************************************
 ********** Calendar view styles end ********
 
 ********** Documents Module styles *********
@@ -4067,7 +4067,7 @@ tr.file > td.fileOwnerData {
   width: 100px;
   white-space: pre-wrap;
 }
-/******************************************* 
+/*******************************************
 ********** Documents Module styles end *****
 ********************************************/
 .engagementsContainer .engagements_content {
@@ -4127,7 +4127,7 @@ tr.file > td.fileOwnerData {
   font-size: 15px;
   padding: 1% 0;
 }
-/******************************************* 
+/*******************************************
 ********** Mailroom view styles start ********
 ********************************************/
 .mailroomBanner {
@@ -4519,7 +4519,7 @@ form[name="notification_settings"] .select2-choice {
 .mentionMessageHeader .MultiFile-remove {
   color: #FFFFFF;
 }
-/******************************************* 
+/*******************************************
 ********** Mailroom view styles end ********
 ********************************************/
 .detailview-header {
@@ -4636,7 +4636,7 @@ form[name="notification_settings"] .select2-choice {
   max-width: 80px;
   vertical-align: bottom;
 }
-/******************************************* 
+/*******************************************
 ********** Groups view styles ********
 ********************************************/
 #s2id_memberList li > div,
@@ -4713,10 +4713,10 @@ form[name="notification_settings"] .select2-choice {
   margin: 0px;
   color: #444444;
 }
-/******************************************* 
+/*******************************************
 ********** Groups view styles  ends********
 ********************************************/
-/******************************************* 
+/*******************************************
 ********** Picklist Css ********
 ********************************************/
 .pickListValue {
@@ -4733,7 +4733,7 @@ form[name="notification_settings"] .select2-choice {
   padding: 2px 1px !important;
   line-height: 15px;
 }
-/******************************************* 
+/*******************************************
 ************* Dashboard Styles *************
 ********************************************/
 li.dashboardWidget {
@@ -4868,7 +4868,7 @@ li.dashboardWidget {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/******************************************* 
+/*******************************************
 ********** Picklist DependencyGraph ********
 ********************************************/
 #dependencyGraph .tableHeading {
@@ -4896,7 +4896,7 @@ li.dashboardWidget {
 #dependencyGraph .dependencyMapping .pickListDependencyTable .selectedCell {
   background: #a9cbf5;
 }
-/******************************************* 
+/*******************************************
 ********** Rewriting select2 for consistency********
 ********************************************/
 .select2-container .select2-choice {
@@ -5069,7 +5069,7 @@ hr {
   padding: 4px 6px;
 }
 .panel-collapse ul li a:hover {
-  background: #596875;
+  background: #215f9c;
   opacity: 1;
 }
 .panel-collapse ul li a:hover a {
@@ -5149,7 +5149,7 @@ TN-34230 .row .nav > li > a:hover {
 .commentAttachmentName {
   font-size: 11px;
 }
-/******************************************* 
+/*******************************************
 ********** Layout Editor ********
 ********************************************/
 .marginBottom10px {
@@ -5303,7 +5303,7 @@ TN-34230 .row .nav > li > a:hover {
   margin-left: 5px;
   word-break: break-all;
 }
-/******************************************* 
+/*******************************************
 ************** Tax Management **************
 ********************************************/
 #TaxCalculationsContainer .table tr:first-child,
@@ -5345,7 +5345,7 @@ TN-34230 .row .nav > li > a:hover {
   max-height: 500px;
   overflow-y: auto;
 }
-/******************************************* 
+/*******************************************
 ********** Workflows ********
 ********************************************/
 #workflow_edit .editViewBody {
@@ -5555,7 +5555,7 @@ TN-34230 .row .nav > li > a:hover {
   width: 100%;
   overflow-x: auto;
 }
-/******************************************* 
+/*******************************************
 *************** Mail Manager ***************
 ********************************************/
 #mm_searchButton {
@@ -5986,7 +5986,7 @@ TN-34230 .row .nav > li > a:hover {
 div.tooltip-inner {
   max-width: 400px;
 }
-/******************************************* 
+/*******************************************
 ********** Menu Editor ********
 ********************************************/
 .sortable.appContainer.ui-sortable {

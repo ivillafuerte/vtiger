@@ -348,7 +348,7 @@ body > .mCSB_inside > .mCSB_container {
 }
 .module-action-bar .module-title {
   font-family: Oswald, "OpenSans-Semibold", "Helvetica Neue", Helvetica, sans-serif;
-  color: #596875;
+  color: #215f9c;
   margin: 12px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -452,7 +452,7 @@ body > .mCSB_inside > .mCSB_container {
   opacity: 0.8;
 }
 .global-nav .app-switcher-container .app-navigator:hover {
-  background: #596875;
+  background: #215f9c;
   opacity: 1;
 }
 .global-nav .app-switcher-container .app-navigator:hover .app-icon {
@@ -484,7 +484,7 @@ body > .mCSB_inside > .mCSB_container {
   display: none;
 }
 .app-menu hr {
-  border-top: 1px solid #596875;
+  border-top: 1px solid #215f9c;
   padding: 1%;
 }
 .app-menu .app-name {
@@ -547,7 +547,7 @@ a.menu-item:hover {
 .active-app-item,
 .app-item:hover {
   opacity: 1;
-  background: #596875;
+  background: #215f9c;
   color: #f2f1f1;
 }
 .app-item-color-MARKETING {
@@ -615,7 +615,7 @@ a.menu-item:hover {
 }
 .app-menu .app-modules-dropdown li:hover {
   opacity: 1;
-  background: #596875;
+  background: #215f9c;
   color: #f2f1f1;
 }
 .app-menu .app-modules-dropdown li:hover .module-icon {
@@ -987,7 +987,7 @@ input[type="password"].inputElement {
   white-space: nowrap;
 }
 .modules-menu ul li:hover {
-  background: #596875;
+  background: #215f9c;
   opacity: 1;
 }
 .modules-menu ul li:hover a {
@@ -2436,7 +2436,7 @@ th {
 }
 .fieldBlockHeader {
   margin-top: 0;
-  color: #596875;
+  color: #215f9c;
 }
 .quickCreateContent .referencefield-wrapper {
   width: 210px;
@@ -2747,7 +2747,7 @@ th {
 ********************************************/
 .modal-header {
   padding: 5px 15px;
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
 }
 .modal-footer {
@@ -2771,7 +2771,7 @@ th {
   display: inline-block;
   width: 100%;
   float: left;
-  background: #596875;
+  background: #215f9c;
   /*    height: 100%;*/
 }
 .settings-menu {
@@ -2782,7 +2782,7 @@ th {
   height: 100%;
 }
 .settings-flip {
-  background: none repeat scroll 0 0 #596875;
+  background: none repeat scroll 0 0 #215f9c;
   font-size: 14px;
   margin: auto;
   padding: 5px;
@@ -2802,7 +2802,7 @@ th {
 }
 .importOverLayHeader {
   background: white;
-  color: #596875;
+  color: #215f9c;
   border-color: transparent;
   max-height: 50px;
 }
@@ -2877,11 +2877,11 @@ th {
 }
 .crumbs li.active {
   height: 0;
-  border-top: 20px solid #596875;
-  border-bottom: 20px solid #596875;
+  border-top: 20px solid #215f9c;
+  border-bottom: 20px solid #215f9c;
 }
 .crumbs li.active:after {
-  border-left: 20px solid #596875 !important;
+  border-left: 20px solid #215f9c !important;
 }
 .crumbs li a {
   display: block;
@@ -2960,7 +2960,7 @@ th {
   opacity: 1;
 }
 .importBlockContainer {
-  color: #596875;
+  color: #215f9c;
 }
 /*******************************************
 ************* Social Buttons ***************
@@ -3562,7 +3562,7 @@ th {
   border: 1px solid #D7D7D7;
 }
 .portal-annoucement-widget {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -3575,7 +3575,7 @@ th {
   padding: 10px;
 }
 .portal-chart-header {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -3589,7 +3589,7 @@ th {
   margin-bottom: 10px;
 }
 .portal-record-widget-content {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 10px;
   padding: 4px;
@@ -3602,7 +3602,7 @@ th {
   width: 285px !important;
 }
 .portal-shortcuts-header {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -3620,7 +3620,7 @@ th {
   width: 285px !important;
 }
 .portal-helpdesk-widget-header {
-  background: #596875;
+  background: #215f9c;
   color: #FFFFFF;
   min-height: 20px;
   padding: 5px;
@@ -5069,7 +5069,7 @@ hr {
   padding: 4px 6px;
 }
 .panel-collapse ul li a:hover {
-  background: #596875;
+  background: #215f9c;
   opacity: 1;
 }
 .panel-collapse ul li a:hover a {
