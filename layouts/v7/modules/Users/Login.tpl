@@ -204,9 +204,9 @@
 
 	<span class="app-nav"></span>
 	<div class="container-fluid loginPageContainer">
-		<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-lg-4 col-lg-offset-4">
 			<div class="loginDiv widgetHeight">
-				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/vtiger.png">
+				<img class="img-responsive user-logo" src="layouts/v7/resources/Images/Stackfire_Light.png">
 				<div>
 					<span class="{if !$ERROR}hide{/if} failureMessage" id="validationMessage">{$MESSAGE}</span>
 					<span class="{if !$MAIL_STATUS}hide{/if} successMessage">{$MESSAGE}</span>
@@ -252,10 +252,6 @@
 					</form>
 				</div>
 			</div>
-		</div>
-
-		<div class="col-lg-1 hidden-xs hidden-sm hidden-md">
-			<div class="separatorDiv"></div>
 		</div>
 
 		</div>
