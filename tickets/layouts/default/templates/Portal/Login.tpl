@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-8 col-xs-8">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-top: 50px;">
+                <div class="col-lg-4 col-lg-offset-4" style="padding-top: 50px;">
                     <div class="login-form">
                         <form class="form-horizontal" novalidate="novalidate" ng-submit="makeAutoComplete();login(loginForm.$valid)" name="loginForm">
                             <h4 style="text-align:center;"translate="Please provide your portal credentials">Please provide your portal credentials</h4>

@@ -11,7 +11,7 @@
 
 	<div class="row">
 
-		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 leftEditContent" style="border-right:none;">
+		<div class="col-lg-4 col-lg-offset-4 leftEditContent" style="border-right:none;">
 
 			{literal}
 			<h3>{{'Personal Details'|translate}}</h3>{/literal}
@@ -56,7 +56,7 @@
 
 
 		</div>
-		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 rightEditContent profile-right" style="background:none;border-left:none;padding-top:15px;">
+		<div class="col-lg-4 col-lg-offset-4 rightEditContent profile-right" style="background:none;border-left:none;padding-top:15px;">
 			{literal}
 			<h3>{{'Company Details'|translate}}</h3>{/literal}
 			<hr class="hrHeader">
