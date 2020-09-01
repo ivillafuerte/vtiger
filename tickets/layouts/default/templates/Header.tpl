@@ -86,6 +86,11 @@
 				</div>
 			</div>
 			{/literal}
+			<div class="col-lg-2 col-md-2" title="logo.png">
+				<a class="logo-left" href="index.php">
+					<img src="{get_logo()}">
+				</a>
+			</div>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
