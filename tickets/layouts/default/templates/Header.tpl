@@ -100,11 +100,6 @@
 			{literal}
 			<div class="collapse navbar-collapse" role="navigation">
 				{/literal}
-				<div class="col-lg-2 col-md-2" title="logo.png">
-					<a class="logo-left" href="index.php">
-						<img src="{get_logo()}">
-					</a>
-				</div>
 				{literal}
 				<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6 portalnavbar" ng-if="loginUser">
 					<ul class=" nav navbar-nav headerLinks menu" ng-show="modules">
