@@ -71,6 +71,7 @@ select option[default] {
     height:50px;
     display: inline-block;
     float: left;
+    margin-left: 25%;
 }
 
 .logo-left img{
