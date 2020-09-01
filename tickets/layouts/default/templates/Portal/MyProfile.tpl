@@ -20,7 +20,7 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 leftEditContent" style="border-right:none;min-height:40%;">
 
 					{literal}
-					<img alt="Contact Picture" style="width:100%;" src="data:{{contactDetails.imagetype}};base64,{{contactDetails.imagedata}}"> {/literal}
+					<img alt="Contact Picture" style="width:40%;" src="data:{{contactDetails.imagetype}};base64,{{contactDetails.imagedata}}"> {/literal}
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 rightEditContent" style="background:none;border-left:none;min-height:60%">
 					{literal}
@@ -64,7 +64,7 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 leftEditContent" style="border-right:none;min-height:40%;">
 					{literal}
-					<img alt="Company Logo" style="width:100%;" src="data:{{accountDetails.imagetype}};base64,{{accountDetails.imagedata}}"> {/literal}
+					<img alt="Company Logo" style="width:40%;" src="data:{{accountDetails.imagetype}};base64,{{accountDetails.imagedata}}"> {/literal}
 
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 rightEditContent" style="background:none;border-left:none;min-height:60%">
