@@ -1,3 +1,3 @@
 # vtiger
 vtiger customized by stackfire
-www.stackfire.com 
+https://crm.stackfire.com 
